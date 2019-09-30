@@ -97,6 +97,7 @@ header a:hover {
 	width: 56.25%;
 	min-width: 175px;
 	margin: 0;
+	border: none;
 }
 
 /*info - plugins*/
