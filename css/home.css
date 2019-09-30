@@ -7,6 +7,7 @@ body {
 	padding: 0;
 	font-family: 'Raleway', Verdana, Geneva;
 	background-color: #2f89e1;
+	min-width: 325px;
 }
 .container {
 	width: 75%;
@@ -87,11 +88,15 @@ header a:hover {
 	font-size: 20px;
 }
 #info #youtubeimg {
-	width: 72px;
-	height: 50px;
+	width: 100px;
 }
-#info iframe {
-	min-width: 150px;
+#info #video {
+	margin: auto;
+}
+#info #video iframe {
+	width: 56.25%;
+	min-width: 175px;
+	margin: 0;
 }
 
 /*info - plugins*/
@@ -99,18 +104,19 @@ header a:hover {
 	margin-top: 40px;
 }
 #info #plugins h1 {
-	font-size: 30px;
+	font-size: 35px;
 	margin-bottom: 5px;
 }
 #info #plugins hr {
 	opacity: 0.3;
 	border: 1.25px solid #87cefa;
-	width:40%;
+	width: 40%;
 }
 #info #plugins .plugin {
+	font-size: 20px;
 	display: inline-table;
 	width: 30%;
-	padding: 0 20px 30px 20px;
+	margin: 0 20px 20px 20px;
 }
 
 /*footer*/
@@ -121,12 +127,21 @@ footer {
 	margin: 0;
 }
 footer #footercenter {
-	line-height: 7em;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 footer p {
 	margin: 0;
-	font-size: 20px;
+	font-size: 18px;
 	color: #ffffff;
 	font-weight: 100;
+	margin-bottom: 10px;
+}
+footer a {
+	text-decoration: none;
+	color: #ff9c00;
+}
+footer a:hover {
+	color: #ffffff;
 }
 
