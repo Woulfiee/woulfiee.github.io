@@ -108,8 +108,17 @@ header a:hover {
 	font-size: 35px;
 	margin-bottom: 5px;
 }
+#arr_sheets #arrangements h2 {
+	font-size: 28px;
+	margin-bottom: 5px;
+}
+#arr_sheets #arrangements h3 {
+	font-size: 20px;
+	margin: 0;
+	margin-bottom: 15px;
+}
 #arr_sheets #arrangements hr {
-	opacity: 0.3;
+	opacity: 0.5;
 	border: 1.25px solid #ff9c00;
 	width: 40%;
 }
@@ -119,8 +128,13 @@ header a:hover {
 	margin: auto;
 	padding-bottom: 30px;
 }
+#arr_sheets #arrangements a {
+	display: inline-table;
+	margin: auto;
+	padding: 10px 5% 10px 5%;
+}
 #arr_sheets #arrangements a img{
-	width:50px;
+	width: 50px;
 }
 #arr_sheets #arrangements .arrangement {
 	font-size: 20px;
