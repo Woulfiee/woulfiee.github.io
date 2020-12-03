@@ -129,12 +129,14 @@ header a:hover {
 	padding-bottom: 30px;
 }
 #arr_sheets #arrangements a {
-	display: inline-table;
+	display: inline;
 	margin: auto;
-	padding: 10px 5% 10px 5%;
+	padding: 20px 5% 20px 5%;
+	text-decoration: none;
+	color: transparent;
 }
 #arr_sheets #arrangements a img{
-	width: 50px;
+	width: 20%;
 }
 #arr_sheets #arrangements .arrangement {
 	font-size: 20px;
@@ -143,7 +145,7 @@ header a:hover {
 	margin: 0 20px 20px 20px;
 }
 #arr_sheets #arrangements .arrangement #thumbnail {
-	width: 360px;
+	width: 90%;
 }
 
 /*footer*/
