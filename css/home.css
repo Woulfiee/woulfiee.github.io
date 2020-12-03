@@ -43,17 +43,13 @@ header a {
 	font-size: 20px;
 	color: #ff9c00;
 }
-header a#current {
-	color: #ffffff;
-	border-bottom: #505050 1.25px solid;
-}
 header a:hover {
 	color: #ffffff;
 }
 
 /*overview*/
 #overview {
-	min-height: 75vh;
+	min-height: 60vh;
 	background: url('../img/overview.png');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -69,23 +65,23 @@ header a:hover {
 #overview h1 {
 	font-size: 50px;
 	color: #ff9c00;
-	margin-bottom: 0;
-}
-#overview p {
-	font-size: 24px;
-	color: #5c7cff;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 }
 
 /*info - youtube*/
+#info {
+	padding-bottom: 30px;
+	border-bottom: #404040 solid 5px;
+}
 #info #youtube {
-	margin: 45px auto 0 auto;
+	padding-top: 45px;
+	margin: auto;
 	max-width: 75%;
+	font-size: 20px;
 }
 #info #youtube a {
 	text-decoration: none;
 	color: black;
-	font-size: 20px;
 }
 #info #youtubeimg {
 	width: 100px;
@@ -93,31 +89,47 @@ header a:hover {
 #info #video {
 	margin: auto;
 }
-#info #video iframe {
-	width: 56.25%;
-	min-width: 175px;
-	margin: 0;
-	border: none;
-}
 
-/*info - plugins*/
-#info #plugins {
-	margin-top: 40px;
+/*arr_sheets - arrangements*/
+#arr_sheets {
+	background-color: #ffffff;
 }
-#info #plugins h1 {
+#arr_sheets #disclaimer {
+	width: 60%;
+	margin: auto;
+	padding: 10px 0px 10px 0;
+	background-color: #ffffff;
+	border: #ff9c00 5px solid;
+}
+#arr_sheets #arrangements {
+	padding-top: 50px;
+}
+#arr_sheets #arrangements h1 {
 	font-size: 35px;
 	margin-bottom: 5px;
 }
-#info #plugins hr {
+#arr_sheets #arrangements hr {
 	opacity: 0.3;
-	border: 1.25px solid #87cefa;
+	border: 1.25px solid #ff9c00;
 	width: 40%;
 }
-#info #plugins .plugin {
+#arr_sheets #arrangements p {
+	width: 75%;
+	font-size: 20px;
+	margin: auto;
+	padding-bottom: 30px;
+}
+#arr_sheets #arrangements a img{
+	width:50px;
+}
+#arr_sheets #arrangements .arrangement {
 	font-size: 20px;
 	display: inline-table;
 	width: 30%;
 	margin: 0 20px 20px 20px;
+}
+#arr_sheets #arrangements .arrangement #thumbnail {
+	width: 360px;
 }
 
 /*footer*/
@@ -138,11 +150,11 @@ footer p {
 	font-weight: 100;
 	margin-bottom: 10px;
 }
-footer a {
-	text-decoration: none;
+footer h3 {
 	color: #ff9c00;
 }
-footer a:hover {
-	color: #ffffff;
+footer h3 a {
+	color: #ff9c00;
+	text-decoration: none;
 }
 
