@@ -98,11 +98,12 @@ header a:hover {
 	width: 60%;
 	margin: auto;
 	padding: 10px 0px 10px 0;
+	margin-bottom: 45px;
 	background-color: #ffffff;
 	border: #ff9c00 5px solid;
 }
 #arr_sheets #arrangements {
-	padding-top: 50px;
+	padding-top: 15px;
 }
 #arr_sheets #arrangements h1 {
 	font-size: 35px;
@@ -118,15 +119,16 @@ header a:hover {
 	margin-bottom: 15px;
 }
 #arr_sheets #arrangements hr {
-	opacity: 0.5;
+	opacity: 0.75;
 	border: 1.25px solid #ff9c00;
 	width: 40%;
+	margin-bottom: 25px;
 }
 #arr_sheets #arrangements p {
 	width: 75%;
 	font-size: 20px;
 	margin: auto;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 }
 #arr_sheets #arrangements a {
 	display: inline;
@@ -136,13 +138,14 @@ header a:hover {
 	color: transparent;
 }
 #arr_sheets #arrangements a img{
-	width: 20%;
+	width: 15%;
 }
 #arr_sheets #arrangements .arrangement {
 	font-size: 20px;
 	display: inline-table;
 	width: 30%;
 	margin: 0 20px 20px 20px;
+	
 }
 #arr_sheets #arrangements .arrangement #thumbnail {
 	width: 90%;
@@ -157,7 +160,7 @@ footer {
 }
 footer #footercenter {
 	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-bottom: 15px;
 }
 footer p {
 	margin: 0;
@@ -167,10 +170,12 @@ footer p {
 	margin-bottom: 10px;
 }
 footer h3 {
-	color: #ff9c00;
+	color: #ffffff;
 }
 footer h3 a {
 	color: #ff9c00;
 	text-decoration: none;
 }
-
+footer h3 a:hover {
+	color: #ffffff;
+}
