@@ -25,7 +25,7 @@ header h1 {
 	padding-top: 20px;
 	font-size: 45px;
 	margin: 0;
-	color: #5c7cff;
+	color: #2f89e1;
 }
 header nav {
 	padding: 10px 0 20px 0;
@@ -92,7 +92,7 @@ header a:hover {
 
 /*arr_sheets - arrangements*/
 #arr_sheets {
-	background-color: #ffffff;
+	background-color: #E5F0FB;
 }
 #arr_sheets #disclaimer {
 	width: 60%;
@@ -103,7 +103,7 @@ header a:hover {
 	border: #ff9c00 5px solid;
 }
 #arr_sheets #arrangements {
-	padding-top: 15px;
+	padding-top: 0.1px;
 }
 #arr_sheets #arrangements h1 {
 	font-size: 35px;
